@@ -13,7 +13,7 @@ FaBoLCD_PCF8574 lcd;
 void setup() {
 
   lcd.begin(16,2);
-  lcd.print("Test");
+  lcd.print("Sıcaklık ve Nem Ölçer");
   delay(1000);
   dht.begin();
 
